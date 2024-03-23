@@ -1,0 +1,26 @@
+{
+  "name": "cypress-automation-test",
+  "version": "1.0.0",
+  "description": "A complete automation test for an existing website using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "test:AboutUsPage": "npx cypress run --spec cypress/e2e/AboutUsPage.cy.js",
+    "test:Footers": "npx cypress run --spec cypress/e2e/Footers.cy.js"
+
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "test"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^10.0.1",
+    "cypress": "^13.6.4",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.8.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
